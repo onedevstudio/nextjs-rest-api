@@ -6,7 +6,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
   <>
     <h1>Hello world! - user agent: {userAgent}</h1>
     <Link href="/about">
-      About
+      <a>About</a>
     </Link>
   </>
 );

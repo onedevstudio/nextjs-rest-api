@@ -6,7 +6,7 @@ const AboutPage: NextPage<{}> = () => (
   <>
     <h1>About page</h1>
     <Link href="/">
-      Home
+      <a>Home</a>
     </Link>
   </>
 );
